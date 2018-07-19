@@ -1,0 +1,20 @@
+<resources>
+
+    <dimen name="list_side_margin">4dp</dimen>
+
+    <dimen name="body_text_size">16sp</dimen>
+    <dimen name="photo_height">304dp</dimen>
+    <dimen name="body_bottom_margin">16dp</dimen>
+
+    <dimen name="custom_match_parent">-1px</dimen>
+    <dimen name="custom_wrap_content">-2px</dimen>
+    <dimen name="content_lin_layout_width">@dimen/custom_match_parent</dimen>
+    <dimen name="content_image_height">@dimen/custom_wrap_content</dimen>
+    <dimen name="content_linear_elevation">0dp</dimen>
+    <dimen name="content_linear_top_margin">0dp</dimen>
+    <dimen name="content_linear_inner_padding">16dp</dimen>
+
+    <dimen name="elevation_fab">6dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+</resources>
