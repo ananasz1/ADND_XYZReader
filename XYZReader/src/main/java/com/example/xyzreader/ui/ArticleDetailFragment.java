@@ -169,7 +169,9 @@ public class ArticleDetailFragment extends Fragment implements
 
             String text = getResources().getText(R.string.by)+ mCursor.getString(ArticleLoader.Query.AUTHOR);
             bylineView.setText(text);
-            bodyView.setText(Html.fromHtml(mCursor.getString(ArticleLoader.Query.BODY).replaceAll("(\r\n|\n)", "<br />")));
+            //bodyView.setText(Html.fromHtml(mCursor.getString(ArticleLoader.Query.BODY).replaceAll("(\r\n|\n)", "<br />")));
+            bodyView.setText(Html.fromHtml(mCursor.getString(ArticleLoader.Query.BODY).substring(0,1300).replaceAll("(\r\n|\n)", "<br />")));
+
         } else {
             mRootView.setVisibility(View.GONE);
         }
